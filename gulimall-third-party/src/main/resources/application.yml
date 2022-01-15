@@ -1,0 +1,29 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    alicloud:
+      access-key: LTAI5t7Wvd4MfEjxXfsPJKu1
+      secret-key: aRqusWD5pFY1mr9VobrCL1wma0Oho4
+      oss:
+        endpoint: oss-cn-shenzhen.aliyuncs.com
+        bucket: gulimall-metazz
+      sms:
+        host: https://fesms.market.alicloudapi.com
+        path: /sms/
+        skin: 1
+        sign: 1
+        appcode: 87db5da72bcf47d39a9e34899e75cce2
+
+
+  application:
+    name: gulimall-third-party
+
+server:
+  port: 30000
+
+
+
+
+
